@@ -1,10 +1,8 @@
 # modules 폴더는 실제 사용하는 기능을 서술
 
-route =  해당 테이블에 설정할 경로에 대한 Code
-route_association =  서브넷간, 인터넷 게이트웨이, 가상 프라이빗 게이트웨이 간의  연결을 당담하는 Code
+- route : 해당 테이블에 설정할 경로에 대한 Code <br>
+- route_association =  서브넷간, 인터넷 게이트웨이, 가상 프라이빗 게이트웨이 간의  연결을 당담하는 Code <br>
 route_table = VPC에서 사용되며, 서브넷의 라우팅 규칙을 정의하는 Code
-
-
 auto_scaling_group = Auto Scaling Group 리소스를 생성하는 Code
 lb = nlb,alb 리소스를 생성하는 Code
 lb_listener = nlb,alb 리스터를 생성하는 Code
