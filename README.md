@@ -16,7 +16,7 @@
 - ec2 : 서버 리소스를 생성하는 Code 입니다. <br>
 - eip :  공인ip(eip) 리소스를 생성하는 Code 입니다. <br>
 - templates : 오토스케일링에서 스케일 아웃될 때, vm이미지와 인스턴스 타입, SG정의, 서버데이터 스크립트를 선언하는 Code 입니다. <br>
-- tgw -: transit gateway 리소스를 생성하는 Code, Vpc간에 통신을 담당하는 Code 입니다. <br>
+- tgw : transit gateway 리소스를 생성하는 Code, Vpc간에 통신을 담당하는 Code 입니다. <br>
 
 # 2. vpc 폴더는 modules에 있는 변수를 선언하였습니다.
 
