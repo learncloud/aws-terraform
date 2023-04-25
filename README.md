@@ -1,5 +1,3 @@
-# lb_target_group이랑  templates를 알아내고 나머지 정리해서 업로드 ㄱ
-
 # modules 폴더는 실제 사용하는 기능을 만들어 두었습니다.
 
 route =  해당 테이블에 설정할 경로에 대한 Code
