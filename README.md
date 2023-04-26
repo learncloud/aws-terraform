@@ -1,8 +1,8 @@
 # 1. modules 폴더는 실제 사용하는 기능을 서술
 
 - route : 해당 테이블에 설정할 경로에 대한 Code 입니다. <br>
-- route_association : 서브넷간, 인터넷 게이트웨이, 가상 프라이빗 게이트웨이 간의  연결을 당담하는 Code 입니다. <br>
-- route_table : VPC에서 사용되며, 서브넷의 라우팅 규칙을 정의하는 Code 입니다. <br>
+- route_association : 생성된 테이블에 서브넷을 명시적으로 연결 해주는 Code 입니다. <br>
+- route_table : Route Table을 생성하는 Code 입니다. <br>
 - auto_scaling_group : Auto Scaling Group 리소스를 생성하는 Code 입니다. <br>
 - lb : nlb,alb 리소스를 생성하는 Code 입니다. <br>
 - lb_listener : nlb,alb 리스너를 생성하는 Code 입니다. <br>
@@ -19,4 +19,3 @@
 - tgw : transit gateway 리소스를 생성하는 Code, Vpc간에 통신을 담당하는 Code 입니다. <br>
 
 # 2. vpc 폴더는 modules에 있는 변수를 선언하였습니다.
-
